@@ -1,0 +1,41 @@
+.klient-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.klient-item {
+    width: calc((100% - 150px) / 6);
+}
+
+.klient-link {
+    height: 92px;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: block;
+    align-items: center;
+    display: flex;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+            border-color: #2196F3;
+        }
+}
+
+.klient-ikon {
+    justify-content: center;
+    align-items: center;
+    .klient-link:hover &,
+    .klient-link:focus & {
+            fill: #2196F3;
+        }
+}
+
+.klient-ikon {
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
