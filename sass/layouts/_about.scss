@@ -1,20 +1,20 @@
-.section .about {
+.about__container {
     padding-top: 0px;
 
 }
 
-.about-container {
+.picture-list {
     display: flex;
     gap: 30px;
 }
 
-.about-item {
+.picture-list__item {
     position: relative;
 
 
 }
 
-.about-text {
+.picture-list__text {
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
